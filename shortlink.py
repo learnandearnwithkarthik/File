@@ -5,8 +5,8 @@ from asyncio import TimeoutError
 from shortzy import Shortzy
 from Adarsh.vars import Var
 
-SHORTENER_API = str(getenv('SHORTENER_API', 'd03a53149bf186ac74d58ff80d916f7a79ae5745'))
-SHORTENER_WEBSITE = str(getenv('SHORTENER_WEBSITE', 'tnshort.net'))
+SHORTENER_API = str(getenv('SHORTENER_API', '600ea6946edfb286f42f5797da7ed68e7c855f50'))
+SHORTENER_WEBSITE = str(getenv('SHORTENER_WEBSITE', 'moneycase.link'))
 
 
 shortzy = Shortzy(SHORTENER_API, SHORTENER_WEBSITE)
